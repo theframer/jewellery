@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <script src="https://kit.fontawesome.com/1573858c33.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
+    #jews {
+      color: white;
+    }
+
+    #jews:hover {
+      background: white;
+      color: black;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    :root {
+      --primary: hsl(200, 4%, 14%, 0.75);
+      --secondary: hsl(210, 3%, 26%, 0.75);
+    }
+
+    nav {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+
+    }
+
+    #test {
+      color: white;
+    }
+
+    #test1 {
+      color: white;
+      background: black;
+      border-radius: 5px;
+    }
+
+    img {
+      height: 760px;
+    }
+
+    .fashion {
+      background: url(./IMAGES/seperator_design.png) no-repeat center top;
+      padding-top: 20px;
+      margin-top: 3px !important;
+      margin-bottom: 20px !important;
+    }
+
+    .fashion1 {
+      background: url(./IMAGES/seperator_design.png) no-repeat center top;
+      padding-top: 20px;
+      margin-top: 3px !important;
+      margin-bottom: 20px !important;
+    }
+
+    p {
+      padding: 10px;
+      font-family: 'Cardo', serif;
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <a name="Home"></a>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="jews"><i class="fas fa-gem"></i>
+        VS JEWELLERS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav me-auto" id="text">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home" id="test">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutUs" id="test">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#ContactUs" id="test">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto" id="text">
+          <li class="nav-item">
+            <a class="nav-link fs-0" id="test" href="http://127.0.0.1:5500/login.html">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="test1" href="http://127.0.0.1:5500/signup.html">SIGNUP</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./IMAGES/pexels-castorly-stock-3829444.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h6>S I L V E R D I A M O N D R I N G</h6>
+          <p>ജനകോടികളുടെ</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./IMAGES/pexels-lalesh-aldarwish-147637.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h6>S I L V E R  N E C K L A C E</h6>
+          <p>വിശ്വസ്ത</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./IMAGES/pexels-rūdolfs-klintsons-7127245.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h6>D I A M O N D C R O W N</h6>
+          <p>സ്ഥാപനം</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 text-center mt-3">
+      <a name="AboutUs"></a>
+      <h5>WHO WE ARE</h5>
+      <P>The journey of VSG JEWS began in the year 1962 with the opening of our first wholesale and retail
+        outlet in Alappuzha, Kerala, India. After the success of this store, VSG JEWS launched its online store
+        in
+        2021. Today, it is the world's preferred choice for Indian Ethnic Fashion
+        and sets new standards of customer delight every day.</P>
+    </div>
+    <div class="fashion">
+    </div>
+    <div class="col-lg-4 text-center mt-3">
+      <h5>WHAT WE STAND FOR</h5>
+      <P>We are a one-stop webshop offering the widest variety of authentic and trendy ethnic fashion. Our online
+        platform offers it all - sarees, salwar kameez, lehengas, contemporary Indo Westerns with an exquisite
+        collection of accessories.</P>
+    </div>
+    <div class="col-lg-4 text-center mt-3">
+      <h5>OUR MISSION</h5>
+      <p>
+        To provide our customers a truly international online shopping experience, we guarantee superior quality
+        and craftsmanship through our range, supported by swift and secure processes right from purchase to
+        product delivery and beyond.</p>
+    </div>
+    <div class="col-lg-4 text-center mt-3">
+      <h5>OUR VISSION</h5>
+      <p>
+        We envisage ourselves as the best online shopping experience for customers worldwide, providing rich
+        Indian artistry through truly international fashion statements. The aim is to source the best of Indian
+        Ethnic Fashion and spread its magic.</p>
+    </div>
+    <div class="fashion1">
+    </div>
+  </div>
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <a name="ContactUs"></a>
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram" ></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>VAISHALI JEWELLERS
+            </h6>
+            <p>
+              Having a specialized curation team gives us an edge. We curate collections by festivals, colors, body
+              types, zodiac signs, weddings, types of ethnic work - and more. Makes shopping so easy.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+
+            <p>
+              <a href="#!" class="text-reset">SILVER</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">DIAMOND</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">GOLD</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              CONNECT WITHUS
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">FACEBOOK</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">WHATSAPP</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">TWITTER</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">INSTAGRAM</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> IND, KERALA, ALAPPUZHA</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              vsj@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +91 9074616161</p>
+            <p><i class="fas fa-print me-3"></i> +91 9074716171</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://instagram.com/amal_dv_/">AMAL DEV ANILKUMAR</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+
+</html>

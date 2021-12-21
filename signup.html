@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
+            form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+            input{
+                width: 100%;
+                border-radius: 500px;
+
+            }
+            .btn{
+                color: black;
+                background-color: #ffffff;
+                letter-spacing: 1px;
+                border: 1px solid hsl(0, 0%, 0%);
+            }
+            label{
+                letter-spacing: 1px;
+                color: white;
+                
+            }
+            .form-check-input:checked{
+    background-color: hsl(0, 0%, 0%);
+    border-color: hsl(0, 0%, 100%);
+}
+body{
+  background-image: url(./IMAGES/pexels-emre-vonal-7700273.jpg);
+  background-size: 100%;
+}
+label{
+      padding: 10px;
+      font-family: 'Cardo', serif;
+      font-weight: 300;
+      font-size: 18px;
+      margin-top: -50%;
+      
+     
+    }
+        </style>
+</head>
+<body>
+  <!-- <div class="background-image"> -->
+    <!-- <img src="./IMAGES/pexels-emre-vonal-7700273.jpg" alt=""> -->
+  <!-- </div> -->
+    <form>
+        <div class="mb-md-0">
+          <label for="exampleInputEmail1" class="form-label">First Name</label>
+          <input type="text" class="input" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-md-0">
+          <label for="exampleInputPassword1" class="form-label">Last Name</label>
+          <input type="text" class="input" id="exampleInputPassword1">
+        </div>
+        <div class="mb-md-0">
+            <label for="exampleInputPassword1" class="form-label">Phone No</label>
+            <input type="text" class="input" id="exampleInputPassword1">
+          </div>
+          <div class="mb-md-0">
+            <label for="exampleInputPassword1" class="form-label">Email</label>
+            <input type="email" class="input" id="exampleInputPassword1">
+          </div>
+          <div class="mb-md-0">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="input" id="exampleInputPassword1">
+          </div>
+          <div class="mb-md-0">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="input" id="exampleInputPassword1">
+          </div>
+        <div class="mb-md-0 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">save password</label>
+        </div>
+        <a button type="button" class="btn btn-dark" a href="http://127.0.0.1:5500/newacount.html">Submit</a>
+      </form>
+    
+</body>
+</html>
