@@ -32,7 +32,7 @@
       --secondary: hsl(210, 3%, 26%, 0.75);
     }
 
-    nav {
+    .navbar-light {
       background: linear-gradient(135deg, var(--primary), var(--secondary));
 
     }
@@ -72,20 +72,25 @@
       font-size: 18px;
     }
 
+    .navbar-light .navbar-toggler{
+      background-color: hsl(0, 0%, 100%);
+      border: 1px solid white;
+    }
+
     html {
       scroll-behavior: smooth;
-    }
+    } 
   </style>
 </head>
 
 <body>
   <a name="Home"></a>
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" id="jews"><i class="fas fa-gem"></i>
         VS JEWELLERS
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -132,7 +137,7 @@
       <div class="carousel-item">
         <img src="./IMAGES/pexels-lalesh-aldarwish-147637.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h6>S I L V E R  N E C K L A C E</h6>
+          <h6>S I L V E R N E C K L A C E</h6>
           <p>വിശ്വസ്ത</p>
         </div>
       </div>
@@ -205,7 +210,7 @@
           <i class="fab fa-google"></i>
         </a>
         <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram" ></i>
+          <i class="fab fa-instagram"></i>
         </a>
         <a href="" class="me-4 text-reset">
           <i class="fab fa-linkedin"></i>
